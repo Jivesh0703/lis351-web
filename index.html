@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Madison</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">Explore Madison <span class="dot">.</span></div>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#features">Highlights</a>
+          <a href="#featured">Featured</a>
+          <a href="#guides">Guides</a>
+          <a href="#cta">Get Started</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero (background image comes from CSS: .hero uses images/madison-hero.jpg) -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-content">
+          <h1 id="hero-title">Explore Madison, Wisconsin</h1>
+          <p class="hero-subhead">
+            Your quick guide to the best food, nature, and student-friendly spots in the city.
+          </p>
+
+          <a class="btn btn-dark" href="#featured">Get Started</a>
+          <a class="btn btn-outline" href="#features" style="margin-left: 10px;">See highlights</a>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="features" id="features" aria-labelledby="features-title">
+        <div class="container">
+          <h2 class="section-title" id="features-title">City Highlights</h2>
+          <p class="section-lede">
+            Lakes, food, and campus culture—three easy ways to start exploring Madison.
+          </p>
+
+          <div class="features-grid">
+            <article class="feature">
+              <div class="icon">
+                <img src="images/nature-icon.svg" alt="" width="28" height="28" />
+              </div>
+              <h3>Outdoor Adventures</h3>
+              <p>Enjoy lakes, biking trails, and scenic parks right in the city.</p>
+            </article>
+
+            <article class="feature">
+              <div class="icon">
+                <img src="images/food-icon.svg" alt="" width="28" height="28" />
+              </div>
+              <h3>Local Food</h3>
+              <p>Discover student favorites, coffee shops, and iconic Madison eats.</p>
+            </article>
+
+            <article class="feature">
+              <div class="icon">
+                <img src="images/campus-icon.svg" alt="" width="28" height="28" />
+              </div>
+              <h3>Campus Life</h3>
+              <p>Explore UW–Madison landmarks, libraries, and student hangouts.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured content -->
+      <section class="featured" id="featured" aria-labelledby="featured-title">
+        <div class="container">
+          <h2 class="section-title" id="featured-title">Discover the Heart of Madison</h2>
+          <p class="section-lede">
+            Madison is known for its lakes, walkable downtown, and vibrant student culture. Whether
+            you want to relax by Lake Mendota, grab food on State Street, or study at Memorial
+            Library, there’s something for everyone.
+          </p>
+
+          <!-- Featured image using your local file as a background -->
+          <div
+            class="media"
+            style="background-image: url('images/state-street.jpg'); background-size: cover; background-position: center;"
+            role="img"
+            aria-label="State Street in Madison with shops and pedestrians"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Secondary content blocks -->
+      <section class="secondary" id="guides" aria-labelledby="guides-title">
+        <div class="container">
+          <h2 class="section-title" id="guides-title">Quick Guides</h2>
+          <p class="section-lede">
+            Two quick starting points for students: study spots and weekend ideas.
+          </p>
+
+          <div class="secondary-grid">
+            <article class="card">
+              <div class="card-text">
+                <h3>Best Places to Study</h3>
+                <p>
+                  Check out Memorial Library, College Library, and cozy cafes around campus when you
+                  need a focused workspace.
+                </p>
+                <a class="btn btn-outline" href="#cta">Plan a day</a>
+              </div>
+              <div
+                class="card-image"
+                style="background-image: url('images/study-cafe.jpg');"
+                role="img"
+                aria-label="A student working on a laptop in a coffee shop"
+              ></div>
+            </article>
+
+            <article class="card">
+              <div class="card-text">
+                <h3>Weekend Activities</h3>
+                <p>
+                  Farmers markets, lakeside walks, and festivals make weekends in Madison fun year-round.
+                </p>
+                <a class="btn btn-outline" href="#features">See highlights</a>
+              </div>
+              <div
+                class="card-image"
+                style="background-image: url('images/farmers-market.jpg');"
+                role="img"
+                aria-label="Outdoor farmers market with people shopping"
+              ></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to action -->
+      <section class="cta" id="cta" aria-labelledby="cta-title">
+        <div class="container cta-inner">
+          <h2 class="section-title" id="cta-title">Ready to explore Madison?</h2>
+          <p class="section-lede">
+            Start with a walk down State Street, grab a snack, and end the day by the lake.
+          </p>
+          <a class="btn btn-dark" href="#features">See the highlights</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <p style="margin: 0 0 10px;">© 2026 Explore Madison. All rights reserved.</p>
+          <p style="margin: 0;">
+            Need more ideas? Visit
+            <a href="https://www.visitmadison.com/" target="_blank" rel="noopener">Visit Madison</a>.
+          </p>
+        </div>
+
+        <div class="footer-cols" aria-label="Footer links">
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <a href="#featured">About</a>
+            <a href="#features">Highlights</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Plan</h4>
+            <a href="#guides">Guides</a>
+            <a href="#cta">Get Started</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Links</h4>
+            <a href="https://www.visitmadison.com/" target="_blank" rel="noopener">Resources</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
